@@ -1,0 +1,171 @@
+/* ============================================================== */
+/* ==========================Font Style start==================== */
+/* ============================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/* ============================================================== */
+/* ==========================Font Style end==================== */
+/* ============================================================== */
+
+:root {
+  --primary_text_color: #fff;
+  --prinary_background_color: #121212;
+  --secondary_background-color: #191919;
+  --pink_color: #ff4655;
+  --oswald: "Oswald", sans-serif;
+  --barlow: "Barlow", sans-serif;
+}
+
+/* ============================================================== */
+/* ==========================common css start==================== */
+/* ============================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+li,
+ul,
+ol,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================== */
+/* ==========================common css end==================== */
+/* ============================================================== */
+
+/* ============================================================== */
+/* ==========================Nevbar css start==================== */
+/* ============================================================== */
+#nevbar_part {
+  background-color: var(--prinary_background_color);
+  padding: 10px 0;
+}
+#nevbar_part .navbar-nav {
+  margin-left: 60px;
+}
+#nevbar_part .navbar-nav li a {
+  color: #ddd;
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.signin_text i {
+  margin-right: 15px;
+}
+#nevbar_part .nevbar_icon ul li a {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+/* ============================================================== */
+/* ==========================Nevbar css end==================== */
+/* ============================================================== */
+
+/* ============================================================== */
+/* ==========================banner css start==================== */
+/* ============================================================== */
+#banner_part {
+  padding: 280px 0 103px 0;
+  background: url(/images/banner\ .png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner_part .banner_text h3 {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 2.7px;
+  margin-bottom: 10px;
+}
+#banner_part .banner_text h1 {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: relative;
+}
+#banner_part .banner_text h1::after {
+  position: absolute;
+  content: "";
+  left: 80%;
+  bottom: 13%;
+  width: 90px;
+  height: 4px;
+  background-color: var(--primary_text_color);
+}
+#banner_part .banner_text p {
+  color: var(--primary_text_color);
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 130px;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
+#banner_part .banner_text .btn {
+  padding: 13px 24px;
+  border-bottom: none;
+  background-color: var(--primary_text_color);
+  color: #121212;
+  font-family: var(--oswald);
+  font-size: 16px;
+  font-weight: 400;
+  transition: all linear 0.3s;
+}
+#banner_part .banner_text .btn:hover {
+  background-color: var(--pink_color);
+  color: var(--primary_text_color);
+}
+#banner_part .banner_text .btn i {
+  color: var(--pink_color);
+  vertical-align: middle;
+  margin-left: 4px;
+}
+#banner_part .banner_text .btn:hover i {
+  color: var(--primary_text_color);
+}
+.social_icon a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 301px;
+  color: var(--secondary_background-color);
+  background-color: var(--primary_text_color);
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* ============================================================== */
+/* ==========================banner css end==================== */
+/* ============================================================== */
